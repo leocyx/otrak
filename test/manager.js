@@ -10,7 +10,7 @@ M.login = function(id, password){
     var user=usermap[id]
     if(user.password===password){
         return user
-    }
+    } 
 }
 var user1 = M.login('leo','1234')
 console.log("user1=%j",user1)
